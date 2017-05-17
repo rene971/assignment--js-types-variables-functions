@@ -1,7 +1,5 @@
-//Warmup - JS Drills - Basic Functions & Data Types
-
 //------------------------------------------------------------------
-// TASK 1:  isVowel()
+// TASK:  isVowel()
 // Write a function called isVowel() that returns true/false for 
 //  whether a character is a vowel or not.
 //------------------------------------------------------------------
