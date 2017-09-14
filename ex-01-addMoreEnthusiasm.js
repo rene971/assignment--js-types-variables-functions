@@ -10,7 +10,7 @@
 // DEMO
 // -
 // You, the student, will write the function
-function addMoreEnthusiam(inputTxt){
+function addMoreEnthusiasm(inputTxt){
 
 	// ...and your code goes here
 	var inputWithEnthusiasm = inputTxt + "!!!"
@@ -22,8 +22,8 @@ function addMoreEnthusiam(inputTxt){
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
-var output1 = addMoreEnthusiam("I want pizza")
+var output1 = addMoreEnthusiasm("I want pizza")
 console.assert( output1  === "I want pizza!!!" );
 
-var output2 = addMoreEnthusiam("Hey")
+var output2 = addMoreEnthusiasm("Hey")
 console.assert( output2 === "Hey!!!");
