@@ -1,7 +1,7 @@
 /**
  * getMinimum()
  * ------------------------------------------------------
- * Write a function called getMinimum() that takes 4 numbers as arguments
+ * Write a function called `getMinimum()` that takes 4 numbers as arguments
  * and returns the one with the lowest value.
  *
  **/

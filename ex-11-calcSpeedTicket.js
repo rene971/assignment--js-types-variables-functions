@@ -41,4 +41,4 @@ console.assert( calcSpeedTicket(65, 72, true) === 150  )
 console.assert( calcSpeedTicket(75, 97, false) === 250 )
 console.assert( calcSpeedTicket(55, 83, true) === 500  )
 
-console.assert( calcSpeedTicket(25, 29, true) === 0  )
+console.assert( calcSpeedTicket(30, 27, true) === 0  )

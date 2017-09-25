@@ -120,9 +120,9 @@ describe('makeUserGreeting()', function() {
   });
 });
 
-describe('getMinimium()', function() {
+describe('getMinimum()', function() {
   it('should be a function', function() {
-    return expect(getMinimium).to.be.a('function');
+    return expect(getMinimum).to.be.a('function');
   });
 
   it('should return 0 for 1, 2, 4, 0 series', function() {
@@ -281,7 +281,7 @@ describe('calcSpeedTicket()', function() {
     return expect(calcSpeedTicket(55, 83, true)).to.equal(500);
   });
 
-  it('should return 0 for "25, 29, true" series', function() {
-    return expect(calcSpeedTicket(25, 29, true)).to.equal(0);
+  it('should return 0 for "30, 27, true" series', function() {
+    return expect(calcSpeedTicket(30, 27, true)).to.equal(0);
   });
 });
