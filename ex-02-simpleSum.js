@@ -6,10 +6,15 @@
  *
  **/
 
-function simpleSum(){
-	//YOUR CODE HERE
+function simpleSum(a, b){
+  var total = (a + b)
+
+console.log(total)
+return total
+  //YOUR CODE HERE
    //  -- NOTE you will need to write the functions for
    //     remaining problems in the problem set
+
 }
 
 

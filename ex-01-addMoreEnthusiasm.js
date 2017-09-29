@@ -9,9 +9,9 @@
 
 
 // (DEMO) You, the student, will write the function
-function addMoreEnthusiasm(inputTxt){
 
-	// ...and your code goes here
+	function addMoreEnthusiasm(inputTxt){
+
 	var inputWithEnthusiasm = inputTxt + "!!!"
    return inputWithEnthusiasm
 	 // Remember, you must return a value. Nice!

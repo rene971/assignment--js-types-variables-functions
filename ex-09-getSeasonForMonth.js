@@ -13,8 +13,28 @@
  * or a non-number data type.
  *
  **/
-
-
+function getSeasonForMonth (a)
+{
+  if (a === 1 || a === 12)
+    {
+  return "winter"
+}
+  if (a === 3 || a === 5)
+    {
+  return "spring"
+  }
+if ( a === 7)
+  {
+  return "summer"
+}
+if (a === 9)
+{
+  return "fall"
+}
+else {
+  return false
+}
+}
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

@@ -5,6 +5,14 @@
  * whether a number is negative or not.
  *
  **/
+ function isNegative (a){
+   if (a < 0){
+    return true
+   }
+   else {
+     return false
+   }
+ }
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 

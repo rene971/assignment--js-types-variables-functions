@@ -5,9 +5,14 @@
  * as inputs and returns the average of the two. To avoid
  * repeating yourself, use your sum function inside
  * of your average function.
- *
- **/
+ *``
+ // */
 
+function getAverage (a, b){
+  var total = (a + b) / 2
+  // console.log(total) paravverificar el resultado
+  return total
+}
 
 
 

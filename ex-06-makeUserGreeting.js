@@ -17,8 +17,16 @@
  *
  * NOTE: Don't forget the comma and space and ending puctuation when building the string.
  **/
-
-
+ function makeUserGreeting (username, a){
+var saludo = "Good to see you again," + " " + username + "."
+console.log(saludo)
+ if ( a === true ){
+   return saludo
+  }else
+  {
+  return "Welcome," + " " + username + "!"
+}
+}
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
