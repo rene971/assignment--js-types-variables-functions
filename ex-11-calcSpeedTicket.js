@@ -30,8 +30,31 @@
  *    => 500
  *
  **/
+var speedLimit;
+var userreported;
+var si_no;
 
+function speedTicket (speedlimit, userreported, si_no){
 
+  var ticket = 0
+
+  if (userreported < speedLimit) {
+    return 0;
+  }
+  if ((speed - userreported) = 20 || (speed - userreported) > 20)) {
+    console.log('true')
+    ticket = 250
+  }
+  else {
+   console.log('false')
+   ticket = 150
+  }
+ if (si_no) {
+   ticket * = 2;
+  }
+  console.log(ticket)
+  return ticket
+}
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
